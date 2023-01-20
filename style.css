@@ -59,6 +59,13 @@ body{
     object-fit: cover;
     margin-bottom: 50px;
 }
+/* about */
+.carts-text{
+    position: relative;
+    bottom: 80px;
+    background:#F6E1C5;
+}
+/* about exit */
 @media screen and (max-width: 767px) {
     .cart-text {
         position: relative;
@@ -75,6 +82,18 @@ body{
     .cusual{
        
     }
+   /* about */
+   .carts-text{
+    position: relative;
+    bottom: 0px;
+    background:#F6E1C5;
+    margin: 5px 0;
+}
+.imgabout img{
+    height: 200px;
+    object-fit: cover;
+}
+/* about */
 }
 @media screen and (max-width: 500px) {
    
@@ -86,4 +105,16 @@ body{
     .cusual{
        visibility: hidden;
     }
+    /* about */
+    .carts-text{
+        position: relative;
+        bottom: 0px;
+        background:#F6E1C5;
+        margin: 5px 0;
+    }
+    .imgabout img{
+        height: 200px;
+        object-fit: cover;
+    }
+    /* about */
 }
