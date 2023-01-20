@@ -66,6 +66,16 @@ body{
     background:#F6E1C5;
 }
 /* about exit */
+/* store */
+.conts{
+    margin-top: 50px;
+    background: linear-gradient(rgba(73, 9, 9, 0.9), rgba(73, 9, 9, 0.8)), url('./image/fraise.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+/* store exit */
 @media screen and (max-width: 767px) {
     .cart-text {
         position: relative;
