@@ -26,13 +26,18 @@ body{
     padding: 30px 0;
 }
 .cart-text {
+    position: relative;
+    left: 200px;
+    top: 50px;
+    z-index: 100;
     background:#F6E1C5;
 }
 .btn-primar{
+    position: relative;
+    top: 40px;
+    padding: 10px 25px;
     background: #490909;
     color: #fff;
-   
-    
 }
 .font-family{
     font-family: sans-serif;
@@ -43,4 +48,42 @@ body{
 .nav-link{
     color: #fff;
     margin:  0 20px;
+}
+.car-text{
+    background:#F6E1C5;
+}
+.cont{
+    background: linear-gradient(rgba(73, 9, 9, 0.9), rgba(73, 9, 9, 0.8)), url('./image/fraise.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 767px) {
+    .cart-text {
+        position: relative;
+        left: 2px;
+        top: -5px;
+        z-index: 100;
+        background:#F6E1C5;
+    }
+    .font-family{
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .cusual{
+       
+    }
+}
+@media screen and (max-width: 500px) {
+   
+    .font-family{
+        font-family: sans-serif;
+        font-size:12px;
+        font-weight: bold;
+    }
+    .cusual{
+       visibility: hidden;
+    }
 }
