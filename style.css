@@ -29,7 +29,7 @@ body{
     position: relative;
     left: 200px;
     top: 50px;
-    z-index: 100;
+    z-index: 1000;
     background:#F6E1C5;
 }
 .btn-primar{
@@ -38,6 +38,7 @@ body{
     padding: 10px 25px;
     background: #490909;
     color: #fff;
+    
 }
 .font-family{
     font-family: sans-serif;
@@ -52,20 +53,25 @@ body{
 .car-text{
     background:#F6E1C5;
 }
-.cont{
+.content{
     background: linear-gradient(rgba(73, 9, 9, 0.9), rgba(73, 9, 9, 0.8)), url('./image/fraise.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     object-fit: cover;
     margin-bottom: 50px;
 }
+.card-img-top{
+    z-index: 100;
+}
 /* about */
 .carts-text{
     position: relative;
     bottom: 80px;
     background:#F6E1C5;
+    z-index: 1000;
 }
 /* about exit */
+
 /* store */
 .conts{
     margin-top: 50px;
@@ -76,6 +82,36 @@ body{
     margin-bottom: 50px;
 }
 /* store exit */
+/* product */
+.card-product1{
+    position: relative;
+    top: 280px;
+    left: 150px;
+    background:#F6E1C5;
+    z-index: 1000;
+}
+.card-product2{
+    position: relative;
+    bottom: 40px;
+    right: 150px;
+    background:#F6E1C5;
+    z-index: 1000;
+}
+.card-product3{
+    position: relative;
+    bottom: 80px;
+    left: 150px;
+    background:#F6E1C5;
+    z-index: 1000;
+}
+.card-product4{
+    position: relative;
+    top: 350px;
+    right: 150px;
+    background:#F6E1C5;
+    z-index: 1000;
+}
+/* product exit */
 @media screen and (max-width: 767px) {
     .cart-text {
         position: relative;
@@ -89,8 +125,12 @@ body{
         font-size: 14px;
         font-weight: bold;
     }
-    .cusual{
-       
+    .btn-primar{
+        position: relative;
+        top: 10px;
+        padding: 10px 25px;
+        background: #490909;
+        color: #fff;
     }
    /* about */
    .carts-text{
@@ -104,6 +144,28 @@ body{
     object-fit: cover;
 }
 /* about */
+/* product */
+.card-product1{
+    position: relative;
+    top: -5px;
+    left: 3px;
+}
+.card-product2{
+    position: relative;
+    bottom: -5px;
+    right: 3px;
+}
+.card-product3{
+    position: relative;
+    bottom: 5px;
+    left: 3px;
+}
+.card-product4{
+    position: relative;
+    top: 5px;
+    right: 3px;
+}
+/* product exit */
 }
 @media screen and (max-width: 500px) {
    
@@ -112,8 +174,14 @@ body{
         font-size:12px;
         font-weight: bold;
     }
+    .card-img-top{
+        z-index: 100;
+    }
     .cusual{
        visibility: hidden;
+    }
+    .card-img-top{
+        z-index: 100;
     }
     /* about */
     .carts-text{
